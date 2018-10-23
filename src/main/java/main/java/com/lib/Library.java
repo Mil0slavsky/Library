@@ -13,7 +13,7 @@ class Library {
     @Autowired
     private LibraryBean libraryBean;
 
-    void put(String k, String v) throws IOException {
+     void put(String k, String v) throws IOException {
         HashMap<String, String> cache = libraryBean.fileUpload();
         File file = new File(libraryBean.path);
         if (file.exists() && file.length() != 0) check(cache);

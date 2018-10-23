@@ -3,8 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="f3f556f6-c93f-479a-9461-14f1bbcd234c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/java/com/lib/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/java/com/lib/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/java/com/lib/LibraryBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/java/com/lib/LibraryBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/java/com/lib/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/java/com/lib/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/lib/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/com/lib/Library.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/lib/LibraryBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/com/lib/LibraryBean.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/lib/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/com/lib/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/library-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +25,8 @@
       <file leaf-file-name="Library.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/java/com/lib/Library.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+            <state relative-caret-position="255">
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,8 +37,8 @@
       <file leaf-file-name="LibraryBean.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/java/com/lib/LibraryBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            <state relative-caret-position="136">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/java/com/lib/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+            <state relative-caret-position="323">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,13 +70,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="file.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/file.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="file.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/file.txt">
+      <file leaf-file-name="test.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.txt">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -97,10 +107,10 @@
         <option value="$PROJECT_DIR$/src/main/java/main/java/com/lib/Config.java" />
         <option value="$PROJECT_DIR$/test12.txt" />
         <option value="$PROJECT_DIR$/file1.txt" />
-        <option value="$PROJECT_DIR$/file.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/main/java/com/lib/Library.java" />
         <option value="$PROJECT_DIR$/src/main/java/main/java/com/lib/LibraryBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/main/java/com/lib/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main/java/com/lib/Library.java" />
+        <option value="$PROJECT_DIR$/file.txt" />
       </list>
     </option>
   </component>
@@ -336,7 +346,7 @@
       <updated>1540189526779</updated>
       <workItem from="1540189529125" duration="13461000" />
       <workItem from="1540273200311" duration="8529000" />
-      <workItem from="1540286537705" duration="4045000" />
+      <workItem from="1540286537705" duration="4542000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1540290877926</created>
@@ -352,11 +362,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540291941193</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="third commit">
+      <created>1540292003722</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1540292003722</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26035000" />
+    <option name="totallyTimeSpent" value="26532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -553,32 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/com/lib/Library.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/com/lib/LibraryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/main/java/com/lib/Config.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -589,13 +580,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/com/lib/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/com/lib/LibraryBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        <state relative-caret-position="136">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/com/lib/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/com/lib/Library.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>

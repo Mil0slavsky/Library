@@ -11,7 +11,10 @@ public class Main {
         LibraryBean libraryBean = context.getBean(LibraryBean.class);
         Library library = context.getBean(Library.class);
         libraryBean.setFilePath("C:\\Users\\dmotylev\\IdeaProjects\\LibrarySpring-master\\file.txt");
-        library.get("12321");
+        library.put("12445", "fwefw");
+        library.put("qweq", "fwefw");
+        library.getAll();
+        library.delete("qwet");
         library.getAll();
     }
 }
