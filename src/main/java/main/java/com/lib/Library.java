@@ -16,8 +16,10 @@ class Library {
     void put(String k, String v) throws IOException {
         HashMap<String, String> cache = libraryBean.fileUpload();
         File file = new File(libraryBean.path);
-        if (file.exists()) check(cache);
-        if ((k.length() == 5) && (k.matches("^[0-9]+$") && checked) || (k.length() == 4) && (k.matches("^[a-zA-Z]+$")) && checked)
+        if (file.exists() && file.length() != 0) check(cache);
+        else checked = true;
+        if ((k.length() == 5 && k.matches("^[0-9]+$") && checked)
+                || ((k.length() == 4) && (k.matches("^[a-zA-Z]+$")) && checked))
             cache.put(k, v);
         else {
             System.out.println("Wrong record or incorrect dictionary. ");
@@ -59,17 +61,15 @@ class Library {
         libraryBean.fileUnloaded(cache);
     }
 
-    private boolean checked = true;
+    private boolean checked = false;
 
     private void check(HashMap<String, String> cache) throws IOException {
         cache = libraryBean.fileUpload();
         for (Map.Entry entry : cache.entrySet()) {
-            if ((!(entry.getKey().toString().length() == 5) && !(entry.getKey().toString().matches("^[0-9]+$")))
-                    || (!(entry.getKey().toString().length() == 4) && !(entry.getKey().toString().matches("^[a-zA-Z]+$")))) {
-                checked = false;
-                break;
-            }
-
+            if ((entry.getKey().toString().length() == 5 && entry.getKey().toString().matches("^[0-9]+$"))
+                    || ((entry.getKey().toString().length() == 4) && (entry.getKey().toString().matches("^[a-zA-Z]+$")))) {
+                checked = true;
+            } else break;
         }
     }
 }

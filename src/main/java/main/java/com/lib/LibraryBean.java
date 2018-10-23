@@ -6,7 +6,7 @@ import java.util.*;
 class LibraryBean {
     String path;
 
-    void setFilePath(String path) throws IOException {
+    public void setFilePath(String path) throws IOException {
         File file = new File(path);
         if (!file.exists()) file.createNewFile();
         this.path = path;

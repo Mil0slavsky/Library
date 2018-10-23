@@ -10,8 +10,8 @@ public class Main {
         ApplicationContext context = new AnnotationConfigApplicationContext(Config.class);
         LibraryBean libraryBean = context.getBean(LibraryBean.class);
         Library library = context.getBean(Library.class);
-        libraryBean.setFilePath("C:\\Users\\dmotylev\\IdeaProjects\\LibrarySpring-master\\test12.txt");
-        library.put("12345", "ffggf");
+        libraryBean.setFilePath("C:\\Users\\dmotylev\\IdeaProjects\\LibrarySpring-master\\file.txt");
+        library.put("12321", "ffggf1");
         library.getAll();
     }
 }
