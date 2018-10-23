@@ -11,7 +11,7 @@ public class Main {
         LibraryBean libraryBean = context.getBean(LibraryBean.class);
         Library library = context.getBean(Library.class);
         libraryBean.setFilePath("C:\\Users\\dmotylev\\IdeaProjects\\LibrarySpring-master\\file.txt");
-        library.put("12321", "ffggf1");
+        library.get("12321");
         library.getAll();
     }
 }

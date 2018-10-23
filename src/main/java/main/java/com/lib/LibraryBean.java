@@ -33,7 +33,6 @@ class LibraryBean {
         for (Map.Entry entry : cache.entrySet()) {
             bwriter.write(entry.getKey() + "," + entry.getValue() + System.lineSeparator());
         }
-        bwriter.close();
     }
 
 }

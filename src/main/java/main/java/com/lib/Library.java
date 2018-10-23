@@ -29,24 +29,25 @@ class Library {
 
     void getAll() throws IOException {
         HashMap<String, String> cache = libraryBean.fileUpload();
+        System.out.println("Dictionary: ");
         for (Map.Entry entry : cache.entrySet()) {
             System.out.println(entry.getKey() + " -- " + entry.getValue());
         }
     }
 
-    private void get(String key) throws IOException {
+    void get(String key) throws IOException {
         HashMap<String, String> cache = libraryBean.fileUpload();
-        boolean boo = true;
+        boolean boo = false;
         for (Map.Entry entry : cache.entrySet()) {
             if (entry.getKey().equals(key)) {
                 System.out.println("Pair found: " + entry.getKey() + " -- " + entry.getValue());
-                break;
-            } else boo = false;
+                boo = true;
+            }
         }
         if (!boo) System.out.println("Record not found or check the library is correct. ");
     }
 
-    private void delete(String key) throws IOException {
+    void delete(String key) throws IOException {
         HashMap<String, String> cache = libraryBean.fileUpload();
         boolean boo = false;
         for (Map.Entry entry : cache.entrySet()) {
