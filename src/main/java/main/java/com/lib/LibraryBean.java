@@ -15,6 +15,7 @@ class LibraryBean {
 
     private void getFilePath() {
         System.out.println("Сurrent path: " + path);
+        System.out.println("---------------------------------------------------------------------------");
     }
 
     HashMap<String, String> fileUpload() throws IOException {

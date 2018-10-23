@@ -13,7 +13,7 @@ class Library {
     @Autowired
     private LibraryBean libraryBean;
 
-     void put(String k, String v) throws IOException {
+    void put(String k, String v) throws IOException {
         HashMap<String, String> cache = libraryBean.fileUpload();
         File file = new File(libraryBean.path);
         if (file.exists() && file.length() != 0) check(cache);
@@ -23,6 +23,7 @@ class Library {
             cache.put(k, v);
         else {
             System.out.println("Wrong record or incorrect dictionary. ");
+            System.out.println("---------------------------------------------------------------------------");
         }
         libraryBean.fileUnloaded(cache);
     }
@@ -30,9 +31,12 @@ class Library {
     void getAll() throws IOException {
         HashMap<String, String> cache = libraryBean.fileUpload();
         System.out.println("Dictionary: ");
+        int i = 1;
         for (Map.Entry entry : cache.entrySet()) {
-            System.out.println(entry.getKey() + " -- " + entry.getValue());
+            System.out.println(i + ". " + entry.getKey() + " -- " + entry.getValue());
+            i++;
         }
+        System.out.println("---------------------------------------------------------------------------");
     }
 
     void get(String key) throws IOException {
@@ -41,10 +45,15 @@ class Library {
         for (Map.Entry entry : cache.entrySet()) {
             if (entry.getKey().equals(key)) {
                 System.out.println("Pair found: " + entry.getKey() + " -- " + entry.getValue());
+                System.out.println("---------------------------------------------------------------------------");
                 boo = true;
             }
         }
-        if (!boo) System.out.println("Record not found or check the library is correct. ");
+        if (!boo) {
+            System.out.println("Record not found or check the library is correct. ");
+            System.out.println("---------------------------------------------------------------------------");
+        }
+
     }
 
     void delete(String key) throws IOException {
@@ -54,11 +63,13 @@ class Library {
             if (entry.getKey().equals(key)) {
                 cache.remove(key);
                 System.out.println("Record " + entry.getKey() + " : " + entry.getValue() + " deleted. ");
+                System.out.println("---------------------------------------------------------------------------");
                 boo = true;
                 break;
             }
         }
         if (!boo) System.out.println("Record not found or check the library is correct. ");
+        System.out.println("---------------------------------------------------------------------------");
         libraryBean.fileUnloaded(cache);
     }
 
